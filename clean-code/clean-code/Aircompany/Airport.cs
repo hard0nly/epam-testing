@@ -12,7 +12,7 @@ namespace Aircompany
 
         public Airport(IEnumerable<Plane> planes)
         {
-            planes = planes.ToList();
+            this.planes = planes.ToList();
         }
 
         public IEnumerable<PassengerPlane> GetPassengerPlanes()
